@@ -7,7 +7,7 @@ function ProfileImage() {
   return (
     <div className="profile frame">
         <StaticImage
-          className="circle"
+          className="circle fade-in"
           src="../images/profile.jpg"
           alt="Cristian Moyano"
         />
@@ -19,13 +19,13 @@ function GreetingInfo() {
   return (
     <div className="greeting">
        <p>
-          <div className="light">Hi there,</div>
+          <div className="light fade-in">Hi there,</div>
           <br/>
-          <div className="classic">I'm Cristian.</div>
+          <div className="classic fade-in">I'm Cristian.</div>
           <br/>
-          <div className="label">Backend Software Developer</div>
+          <div className="label fade-in">Backend Software Developer</div>
           <br/>
-          <div className="dry">Mendoza, Argentina.</div>
+          <div className="dry fade-in">Mendoza, Argentina.</div>
           <br/>
         </p>
     </div>
