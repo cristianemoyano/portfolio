@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import ProjectPreview from '../components/project-preview';
+import Content from "../components/content";
 
 export const query = graphql`
 {
@@ -26,15 +27,17 @@ export const query = graphql`
 const ProjectsPage = ({ data }) => {
   return (
     <Layout>
-      {data.allProjectsJson.edges.map(({ node: project }) => (
-        <ProjectPreview
-          key={`preview-${project.slug}`}
-          title={project.title}
-          description={project.description}
-          slug={project.slug}
-          image={project.image.childImageSharp.gatsbyImageData}
-        />
-      ))}
+      <Content>
+        {data.allProjectsJson.edges.map(({ node: project }) => (
+          <ProjectPreview
+            key={`preview-${project.slug}`}
+            title={project.title}
+            description={project.description}
+            slug={project.slug}
+            image={project.image.childImageSharp.gatsbyImageData}
+          />
+        ))}
+      </Content>
     </Layout>
   )
 };

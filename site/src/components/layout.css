@@ -10,42 +10,57 @@ body {
 }
 
 .header {
-  background-color: blue;
+  overflow: hidden;
+  position: fixed;
+  background-color: black;
   padding: 1rem;
 }
+
 
 .header a {
   color: white;
   font-weight: 700;
   text-decoration: none;
   margin-right: 1em;
+  font-weight: lighter;
+}
+
+.header a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+
+.footer {
+  padding: 1rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 .footer a {
   color: white;
-  font-weight: 700;
+  font-size: 0.9em;
   text-decoration: none;
   margin-right: 1em;
+  font-weight: lighter;
 }
 
-.footer {
-  padding: 1rem;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
+.footer a:hover {
+  text-decoration: underline;
+  color: yellow;
 }
 
 .content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 1.75rem auto;
+  margin: auto;
   max-width: 100%;
-  width: 120ch;
+  width: 100%;
 }
 
 .project-preview {
@@ -53,12 +68,6 @@ body {
   width: 100%;
 }
 
-@media (min-width: 600px) {
-  .project-preview {
-    flex: 1 50%;
-    max-width: calc(50% - 0.5rem);
-  }
-}
 
 .project-preview h2 {
   font-size: 1.75rem;
@@ -86,4 +95,98 @@ body {
 
 .project ul {
   margin-top: 0.5rem;
+}
+
+.section {
+  padding: 2em;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-weight: lighter;
+}
+
+.section h2, h3 {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  margin-right: 1em;
+}
+
+.greeting {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.light {
+  font-size: 2em;
+  text-shadow: 1px 1px 2px black;
+  font-weight: lighter;
+}
+
+.classic {
+  font-size: 3em;
+  margin-top: 0em;
+  text-shadow: 1px 1px 2px black;
+  font-weight: normal;
+}
+
+.label {
+  font-size: 1em;
+  margin-top: 0em;
+  position: absolute;
+  max-width: calc(60% - 0.5rem);
+  text-align: center;
+  padding: 0.4em;
+  color: black;
+  font-weight: bold;
+  background-color: yellow;
+  box-shadow: 1px 2px 3px black;
+}
+
+.dry {
+  font-size: 1em;
+  margin-top: 6em;
+  position: absolute;
+  text-shadow: 1px 1px 2px black;
+  z-index: 1;
+  font-weight: lighter;
+}
+
+.profile {
+  z-index: -1;
+  max-width: 70%;
+}
+
+.profile img {
+  filter: grayscale(100%);
+}
+
+
+.right {
+  float: right;
+}
+
+@media (min-width: 400px) {
+  .project-preview {
+    flex: 1 50%;
+    max-width: calc(50% - 0.5rem);
+  }
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1/2;
+  grid-row: 2;
+}
+.two {
+  grid-column: 2 / 4;
+  grid-row:  1 / 4;
 }
