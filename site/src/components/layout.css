@@ -7,6 +7,7 @@
 
 body {
   font-size: 22px;
+  background-color: black;
 }
 
 .header {
@@ -14,11 +15,14 @@ body {
   position: fixed;
   background-color: black;
   padding: 1rem;
+  top: 0;
+  width: 100%;
 }
 
 
 .header a {
   color: white;
+  text-shadow: 1px 1px 2px black;
   font-weight: 700;
   text-decoration: none;
   margin-right: 1em;
@@ -47,6 +51,7 @@ body {
   text-decoration: none;
   margin-right: 1em;
   font-weight: lighter;
+  z-index: 1;
 }
 
 .footer a:hover {
@@ -98,7 +103,7 @@ body {
 }
 
 .section {
-  padding: 2em;
+  padding: 1em;
   width: 100%;
   height: 100%;
   background-color: black;
@@ -109,7 +114,7 @@ body {
   color: white;
   font-weight: 700;
   margin-bottom: 0.5em;
-  margin-top: 0.5em;
+  margin-top: 0.8em;
   margin-right: 1em;
 }
 
@@ -155,8 +160,8 @@ body {
 }
 
 .profile {
-  z-index: -1;
   max-width: 70%;
+  margin-top: 2em;
 }
 
 .profile img {
