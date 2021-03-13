@@ -20,6 +20,19 @@ body {
 }
 
 
+
+.contact {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 700;
+  text-decoration: underline;
+  font-weight: lighter;
+}
+.contact:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
 .header a {
   color: white;
   text-shadow: 1px 1px 2px black;
