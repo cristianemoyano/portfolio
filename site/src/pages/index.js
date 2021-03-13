@@ -5,11 +5,22 @@ import { StaticImage } from "gatsby-plugin-image"
 
 function ProfileImage() {
   return (
-    <div className="profile">
-      <StaticImage
-        src="../images/profile.jpg"
-        alt="Cristian Moyano"
-      />
+    <div className="profile frame">
+      <div id="circle-container">
+        <div id="cc">
+       
+        <div class="circle" id="five"></div>
+        <div class="circle" id="four"></div>
+        <StaticImage className="circle"
+          src="../images/profile.jpg"
+          alt="Cristian Moyano"
+        />
+        <div class="circle" id="three"></div>
+        <div class="circle" id="two"></div>
+        <div class="circle" id="one"></div>
+        </div>
+      </div>
+      
     </div>
   )
 }

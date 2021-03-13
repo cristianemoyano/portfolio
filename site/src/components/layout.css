@@ -165,7 +165,7 @@ body {
 }
 
 .profile img {
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 
@@ -194,4 +194,10 @@ body {
 .two {
   grid-column: 2 / 4;
   grid-row:  1 / 4;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: rgba(18, 216, 223, 0.432);
+	transition: 1s;
 }
