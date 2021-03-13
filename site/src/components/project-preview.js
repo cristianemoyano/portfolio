@@ -7,15 +7,16 @@ const ProjectPreview = ({slug, image, title, description}) => {
     return (
         <div className="project-preview">
             <Link to={`/${slug}/`}>
-                <GatsbyImage image={image} alt={title} />
+                <GatsbyImage image={image} alt={title}/>
             </Link>
             <h2>
                 <Link to={`/${slug}/`}>
                     {title}
                 </Link>
             </h2>
+            <p>{description}</p>
             <p>
-                {description}
+                <Link to={`/${slug}/`}>View this project &rarr;</Link>
             </p>
         </div>
     );

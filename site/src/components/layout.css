@@ -33,6 +33,12 @@
     margin-bottom: 2rem;
     width: 100%;
   }
+
+  .project-preview img {
+    height: 50%;
+    position: relative;
+    top: 200px;
+  }
   
   @media (min-width: 600px) {
     .project-preview {
