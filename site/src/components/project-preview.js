@@ -6,9 +6,6 @@ import './layout.css'
 const ProjectPreview = ({slug, image, title, description}) => {
     return (
         <div className="project-preview">
-            <Link to={`/${slug}/`}>
-                <GatsbyImage image={image} alt={title}/>
-            </Link>
             <h2>
                 <Link to={`/${slug}/`}>
                     {title}

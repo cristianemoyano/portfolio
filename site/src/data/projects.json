@@ -1,16 +1,37 @@
 [
     {
-        "title": "One project",
+        "title": "1 project",
         "slug": "project-1",
         "url": "http://localhost:8000/1",
         "image": "./images/project1.jpg",
         "description": "I built this to show off my sweet skills!"
     },
     {
-        "title": "Another project",
+        "title": "2 project",
         "slug": "project-2",
-        "url": "http://localhost:8000/2",
-        "image": "./images/project2.jpg",
+        "url": "http://localhost:8000/1",
+        "image": "./images/project1.jpg",
+        "description": "I built this to show off my sweet skills!"
+    },
+    {
+        "title": "3 project",
+        "slug": "project-3",
+        "url": "http://localhost:8000/1",
+        "image": "./images/project1.jpg",
+        "description": "I built this to show off my sweet skills!"
+    },
+    {
+        "title": "4 project",
+        "slug": "project-4",
+        "url": "http://localhost:8000/1",
+        "image": "./images/project1.jpg",
+        "description": "I built this to show off my sweet skills!"
+    },
+    {
+        "title": "5 project",
+        "slug": "project-5",
+        "url": "http://localhost:8000/5",
+        "image": "./images/project1.jpg",
         "description": "I built this again to show off my sweet skills!"
     }
 ]
