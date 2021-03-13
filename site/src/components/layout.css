@@ -18,6 +18,25 @@ body {
   color: white;
   font-weight: 700;
   text-decoration: none;
+  margin-right: 1em;
+}
+
+.footer a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+.footer {
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
 .content {
