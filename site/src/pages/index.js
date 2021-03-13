@@ -56,14 +56,24 @@ const IndexPage = ({ data }) => {
       </Content>
       <Content style={aboutStyle}>
         <h2 id="about">About me</h2>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        <p>
+        Hi there, I’m Cristian Moyano! I love to solve problems by programming. I'm a backend software developer from Mendoza, Argentina.
+        </p>
+        <br/>
+        <p>
+        During the last years I worked as a Software Engineer II at Eventbrite, working on the Post Transaction team. The mission of the team is to improve and maintain the post-purchase experience (refunds, chargebacks) of our clients.
+    
+        </p>
         <h3 id="skills">My Skills</h3>
-        Through the last years, I've gained a solid understanding of web development concepts, and I've dedicated a lot of my time to apply these concepts to real-world scenarios at my job.
+        Through the last years, I've dealt with great challenges and I've gained a solid understanding of web development concepts. Also, I've learn good development practices to build high-quality, scalable, and performance code.
+        Therefore whenever I can, I try to apply these concepts to real-world scenarios at my job.
         <br/><br/>
         <ul>
           <li>Git</li>
           <li>Python</li>
+          <li>PHP</li>
+          <li>CakePHP</li>
+          <li>Redis</li>
           <li>Celery</li>
           <li>Django</li>
           <li>React</li>
