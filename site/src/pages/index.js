@@ -79,8 +79,6 @@ const IndexPage = ({ data }) => {
           <div className="grid-item">Javascript</div>
           <div className="grid-item">React</div>
           <div className="grid-item">MySQL</div>
-          <div className="grid-item">Mentoring</div>
-          <div className="grid-item">English & Spanish</div>  
         </div>
       </Content>
       <Content style={aboutStyle}>
