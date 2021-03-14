@@ -7,8 +7,12 @@ import './layout.css'
 const Layout = ({ children }) => (
     <React.Fragment>
         <Helmet>
-          <meta charSet="utf-8" />
-          <title>Cristian Moyano | Backend Software Developer</title>
+            <meta charset="UTF-8" />
+            <meta name="description" content="Hi there, I’m Cristian Moyano! I'm a backend software developer from Mendoza, Argentina."/>
+            <meta name="keywords" content="HTML, CSS, JavaScript"/>
+            <meta name="author" content="Cristian Moyano"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <title>Cristian Moyano | Backend Software Developer</title>
         </Helmet>
         <header className="header">
             <Link to="/">Home</Link>
@@ -18,10 +22,10 @@ const Layout = ({ children }) => (
         </header>
         <main className="content">{children}</main>
         <footer className="footer">
-            <a rel="external" target="_blank" href="https://github.com/cristianemoyano">Github</a>
-            <a rel="external" target="_blank" href="https://www.linkedin.com/in/cristian-moyano/">Linkedin</a>
+            <a rel="noreferrer" target="_blank" href="https://github.com/cristianemoyano">Github</a>
+            <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/cristian-moyano/">Linkedin</a>
             <span className="right space">
-                Made with ♡ by myself. Powered by <a rel="external" target="_blank" href="https://www.gatsbyjs.com/">GatsbyJS</a>
+                Made with ♡ by myself. Powered by <a rel="noreferrer" target="_blank" href="https://www.gatsbyjs.com/">GatsbyJS</a>
             </span>
         </footer>
     </React.Fragment>

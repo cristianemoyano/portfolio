@@ -85,13 +85,13 @@ const IndexPage = ({ data }) => {
       </Content>
       <Content style={aboutStyle}>
         <h2 id="projects">What I've been working on</h2>
-        This section is working in progress. Meanwhile, you can take a look to my <a rel="external" className="contact" target="_blank" href="https://www.linkedin.com/in/cristian-moyano/">Linkedin</a> profile.
+        This section is working in progress. Meanwhile, you can take a look to my <a rel="noreferrer" className="contact" target="_blank" href="https://www.linkedin.com/in/cristian-moyano/">Linkedin</a> profile.
       </Content>
       <Content style={aboutStyle}>
         <h2 id="contact">Let's build something together</h2>
         Feel free to reach me out if you're looking for a developer, have a question, or just want to connect.
         <br/><br/>
-        <a rel="external" className="contact" href="mailto:cristianmoyano.mza@gmail.com">cristianmoyano.mza@gmail.com</a>
+        <a rel="noreferrer" className="contact" href="mailto:cristianmoyano.mza@gmail.com">cristianmoyano.mza@gmail.com</a>
       </Content>
     </Layout>
   )
