@@ -68,20 +68,21 @@ const IndexPage = ({ data }) => {
         Through the last years, I've dealt with great challenges and I've gained a solid understanding of web development concepts. Also, I've learn good development practices to build high-quality, scalable, and performance code.
         Therefore whenever I can, I try to apply these concepts to real-world scenarios at my job.
         <br/><br/>
-        <ul>
-          <li>Git</li>
-          <li>Python</li>
-          <li>PHP</li>
-          <li>CakePHP</li>
-          <li>Redis</li>
-          <li>Celery</li>
-          <li>Django</li>
-          <li>React</li>
-          <li>MySQL</li>
-          <li>API</li>
-          <li>English & Spanish</li>
-          <li>Mentorship</li>
-        </ul>
+
+        <div class="grid-container">
+          <div class="grid-item">Git</div>
+          <div class="grid-item">Python</div>
+          <div class="grid-item">Django</div>  
+          <div class="grid-item">PHP</div>
+          <div class="grid-item">CakePHP</div>
+          <div class="grid-item">Redis</div>  
+          <div class="grid-item">Celery</div>
+          <div class="grid-item">Javascript</div>
+          <div class="grid-item">React</div>
+          <div class="grid-item">MySQL</div>
+          <div class="grid-item">Mentoring</div>
+          <div class="grid-item">English & Spanish</div>  
+        </div>
       </Content>
       <Content style={aboutStyle}>
         <h2 id="projects">What I've been working on</h2>
