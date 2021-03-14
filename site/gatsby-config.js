@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "portfolio",
+    title: "Cristian Moyano | Portfolio",
+    description: "Cristian Moyano's Portfolio",
+    author: "Cristian Moyano",
+    siteUrl: "https://cristianmoyano.gatsbyjs.io/",
   },
   plugins: [
     "gatsby-transformer-json",
