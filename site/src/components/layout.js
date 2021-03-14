@@ -10,10 +10,13 @@ const Layout = ({ children }) => (
             <Link to="/#about" className="right">About</Link>
             <Link to="/#projects" className="right">Projects</Link>
         </header>
-<main className="content">{children}</main>
+        <main className="content">{children}</main>
         <footer className="footer">
-            <Link to="/">Github</Link>
-            <Link to="/">Linkedin</Link>
+            <Link target="_blank" to="https://github.com/cristianemoyano">Github</Link>
+            <Link target="_blank" to="https://www.linkedin.com/in/cristian-moyano/">Linkedin</Link>
+            <span className="right space">
+                Made with ♡ by myself. Powered by <Link target="_blank" to="https://www.gatsbyjs.com/">GatsbyJS</Link>
+            </span>
         </footer>
     </React.Fragment>
 );

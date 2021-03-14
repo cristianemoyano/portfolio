@@ -21,9 +21,9 @@ function GreetingInfo() {
        <p>
           <div className="light fade-in">Hi there,</div>
           <br/>
-          <div className="classic fade-in">I'm Cristian.</div>
+          <div className="fade-in hero">I'm Cristian.</div>
           <br/>
-          <div className="label fade-in">Backend Software Developer</div>
+          <div className="label gradient-box fade-in">Backend Software Developer</div>
           <br/>
           <div className="dry fade-in">Mendoza, Argentina.</div>
           <br/>

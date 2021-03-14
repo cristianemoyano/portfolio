@@ -47,7 +47,6 @@ body {
   color: yellow;
 }
 
-
 .footer {
   padding: 1rem;
   left: 0;
@@ -61,6 +60,16 @@ body {
 .footer a {
   color: white;
   font-size: 0.9em;
+  text-decoration: none;
+  margin-right: 1em;
+  font-weight: lighter;
+  z-index: 1;
+  padding-bottom: 1em;
+}
+
+.footer span {
+  color: white;
+  font-size: 0.7em;
   text-decoration: none;
   margin-right: 1em;
   font-weight: lighter;
@@ -187,6 +196,10 @@ body {
   float: right;
 }
 
+.space {
+  padding-top: 0.5em;
+}
+
 @media (min-width: 400px) {
   .project-preview {
     flex: 1 50%;
@@ -217,8 +230,24 @@ body {
 }
 
 
+.hero {
+  font-size: 3em;
+  margin-top: 0em;
+  font-weight: normal;
+
+  background: radial-gradient(#eff1ff, #000);
+  background-size: 100% 80%;
+  background-position: 50% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 16px;
+  padding-bottom: 12px;
+}
+
+
 .fade-in {
-  animation: fadeIn ease 5s;
+  animation: fade-in-hero 1.5s ease-out 0.7s 1;
   -webkit-animation: fadeIn ease 5s;
   -moz-animation: fadeIn ease 5s;
   -o-animation: fadeIn ease 5s;
@@ -247,4 +276,22 @@ body {
   @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+  }
+
+  .gradient-box {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
