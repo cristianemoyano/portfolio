@@ -9,11 +9,18 @@ module.exports = {
     "gatsby-transformer-json",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
         trackingId: "G-KLMKXJZ8SK",
       },
+    },
+    {
+      resolve: 'gatsby-plugin-html-attributes',
+      options: {
+        lang: 'en'
+      }
     },
     "gatsby-plugin-sitemap",
     {
