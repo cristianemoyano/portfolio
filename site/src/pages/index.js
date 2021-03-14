@@ -1,7 +1,8 @@
 import React from "react"
+import { StaticImage } from "gatsby-plugin-image"
+
 import Content from "../components/content";
 import Layout from '../components/layout';
-import { StaticImage } from "gatsby-plugin-image"
 
 function ProfileImage() {
   return (
@@ -18,7 +19,6 @@ function ProfileImage() {
 function GreetingInfo() {
   return (
     <div className="greeting">
-       <p>
           <div className="light fade-in">Hi there,</div>
           <br/>
           <div className="fade-in hero">I'm Cristian.</div>
@@ -27,7 +27,6 @@ function GreetingInfo() {
           <br/>
           <div className="dry fade-in">Mendoza, Argentina.</div>
           <br/>
-        </p>
     </div>
   )
 }
@@ -69,24 +68,24 @@ const IndexPage = ({ data }) => {
         Therefore whenever I can, I try to apply these concepts to real-world scenarios at my job.
         <br/><br/>
 
-        <div class="grid-container">
-          <div class="grid-item">Git</div>
-          <div class="grid-item">Python</div>
-          <div class="grid-item">Django</div>  
-          <div class="grid-item">PHP</div>
-          <div class="grid-item">CakePHP</div>
-          <div class="grid-item">Redis</div>  
-          <div class="grid-item">Celery</div>
-          <div class="grid-item">Javascript</div>
-          <div class="grid-item">React</div>
-          <div class="grid-item">MySQL</div>
-          <div class="grid-item">Mentoring</div>
-          <div class="grid-item">English & Spanish</div>  
+        <div className="grid-container">
+          <div className="grid-item">Git</div>
+          <div className="grid-item">Python</div>
+          <div className="grid-item">Django</div>  
+          <div className="grid-item">PHP</div>
+          <div className="grid-item">CakePHP</div>
+          <div className="grid-item">Redis</div>  
+          <div className="grid-item">Celery</div>
+          <div className="grid-item">Javascript</div>
+          <div className="grid-item">React</div>
+          <div className="grid-item">MySQL</div>
+          <div className="grid-item">Mentoring</div>
+          <div className="grid-item">English & Spanish</div>  
         </div>
       </Content>
       <Content style={aboutStyle}>
         <h2 id="projects">What I've been working on</h2>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        This section is working in progress. Meanwhile, you can take a look to my <a className="contact" target="_blank" href="https://www.linkedin.com/in/cristian-moyano/">Linkedin</a> profile.
       </Content>
       <Content style={aboutStyle}>
         <h2 id="contact">Let's build something together</h2>

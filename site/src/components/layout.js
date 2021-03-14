@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+
 import './layout.css'
 
 const Layout = ({ children }) => (
@@ -12,10 +13,10 @@ const Layout = ({ children }) => (
         </header>
         <main className="content">{children}</main>
         <footer className="footer">
-            <Link target="_blank" to="https://github.com/cristianemoyano">Github</Link>
-            <Link target="_blank" to="https://www.linkedin.com/in/cristian-moyano/">Linkedin</Link>
+            <a target="_blank" href="https://github.com/cristianemoyano">Github</a>
+            <a target="_blank" href="https://www.linkedin.com/in/cristian-moyano/">Linkedin</a>
             <span className="right space">
-                Made with ♡ by myself. Powered by <Link target="_blank" to="https://www.gatsbyjs.com/">GatsbyJS</Link>
+                Made with ♡ by myself. Powered by <a target="_blank" href="https://www.gatsbyjs.com/">GatsbyJS</a>
             </span>
         </footer>
     </React.Fragment>
