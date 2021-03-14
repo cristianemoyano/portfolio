@@ -8,17 +8,21 @@ const Layout = ({ children }) => (
     <React.Fragment>
         <Helmet>
             <meta charset="UTF-8" />
-            <meta name="description" content="Hi there, I’m Cristian Moyano! I'm a backend software developer from Mendoza, Argentina."/>
-            <meta name="keywords" content="HTML, CSS, JavaScript"/>
-            <meta name="author" content="Cristian Moyano"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <meta name="description" content="Hi there, I’m Cristian Moyano! I'm a backend software developer from Mendoza, Argentina." />
+            <meta name="keywords" content="HTML, CSS, JavaScript" />
+            <meta name="author" content="Cristian Moyano" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <title>Cristian Moyano | Backend Software Developer</title>
         </Helmet>
         <header className="header">
-            <Link to="/">Home</Link>
-            <Link to="/#contact" className="right">Contact</Link>
-            <Link to="/#about" className="right">About</Link>
-            <Link to="/#projects" className="right">Projects</Link>
+            <Link className="logo" to="/">Home</Link>
+            <input className="menu-btn" type="checkbox" id="menu-btn" />
+            <label className="menu-icon" for="menu-btn"><span className="navicon"></span></label>
+            <ul className="menu">
+                <li><Link to="/#contact" >Contact</Link></li>
+                <li><Link to="/#about" >About</Link></li>
+                <li><Link to="/#projects" >Projects</Link></li>
+            </ul>
         </header>
         <main className="content">{children}</main>
         <footer className="footer">
