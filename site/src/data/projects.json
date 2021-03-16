@@ -1,37 +1,67 @@
 [
     {
-        "title": "1 project",
+        "title": "Software Engineer II",
+        "type": "Full Time",
+        "startDate": "2020/07/01",
+        "endDate": "",
+        "company": "Eventbrite, Inc. (EB)",
+        "location": "San Francisco, CA",
+        "currentYear": true,
         "slug": "project-1",
         "url": "http://localhost:8000/1",
         "image": "./images/project1.jpg",
-        "description": "I built this to show off my sweet skills!"
+        "description": ""
     },
     {
-        "title": "2 project",
+        "title": "Software Engineer",
+        "type": "Full Time",
+        "startDate": "2019/01/01",
+        "endDate": "2020/07/01",
+        "company": "Eventbrite, Inc. (EB)",
+        "location": "San Francisco, CA",
+        "currentYear": false,
         "slug": "project-2",
         "url": "http://localhost:8000/1",
         "image": "./images/project1.jpg",
-        "description": "I built this to show off my sweet skills!"
+        "description": "After my journey in Pricing."
     },
     {
-        "title": "3 project",
+        "title": "Junior Software Engineer",
+        "type": "Full Time",
+        "startDate": "2018/02/18",
+        "endDate": "2029/01/01",
+        "company": "Eventbrite, Inc. (EB)",
+        "location": "San Francisco, CA",
+        "currentYear": false,
         "slug": "project-3",
         "url": "http://localhost:8000/1",
         "image": "./images/project1.jpg",
-        "description": "I built this to show off my sweet skills!"
+        "description": "I joined the company through the Engineering Development Academy, a program for junior developers. My first team was Pricing, focused on pricing and tax rules for the whole company. One of my first project was to develop from scratch (data models, API, application, rollout) an admin tool to manage Tax Regimes for Organizers based in Argentina for the Finance team. This tool was built in React. One feature interesting of this tool was to handle file uploads through Amazon S3. In addition for this project I had to create a script that was scheduled by a cron job."
     },
     {
-        "title": "4 project",
-        "slug": "project-4",
+        "title": "Teacher",
+        "type": "Part Time",
+        "startDate": "2013/08/01",
+        "endDate": "2018/10/01",
+        "company": "High School",
+        "location": "Mendoza, Argentina",
+        "currentYear": false,
+        "slug": "project-3",
         "url": "http://localhost:8000/1",
         "image": "./images/project1.jpg",
-        "description": "I built this to show off my sweet skills!"
+        "description": "Teacher in the subject of Electricity I at the 'Prof. Ángel Cervera nro. 4-030' High School."
     },
     {
-        "title": "5 project",
-        "slug": "project-5",
-        "url": "http://localhost:8000/5",
+        "title": "Teacher",
+        "type": "Part Time",
+        "startDate": "2017/05/01",
+        "endDate": "2017/07/01",
+        "company": "livingtheweb.com.ar",
+        "location": "Mendoza, Argentina",
+        "currentYear": false,
+        "slug": "project-3",
+        "url": "http://localhost:8000/1",
         "image": "./images/project1.jpg",
-        "description": "I built this again to show off my sweet skills!"
+        "description": "Java face-to-face course from scratch. At the end of this course the student was able to analyze, design and program a desktop application with Java. Students learned the best techniques and practices to be able to work professionally, without having previous programming knowledge."
     }
 ]

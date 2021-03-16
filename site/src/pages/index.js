@@ -1,8 +1,35 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import { graphql } from 'gatsby'
 
 import Content from "../components/content";
 import Layout from '../components/layout';
+import ProjectTimeline from '../components/timeline';
+
+export const query = graphql`
+{
+  allProjectsJson {
+    edges {
+      node {
+        title
+        type
+        startDate
+        endDate
+        currentYear
+        company
+        location
+        slug
+        description
+        image {
+          childImageSharp {
+            gatsbyImageData(layout: FIXED)
+          }
+        }
+      }
+    }
+  }
+}
+`;
 
 function ProfileImage() {
   return (
@@ -41,6 +68,9 @@ const IndexPage = ({ data }) => {
     backgroundColor: 'black',
     color: 'white',
   };
+
+  const projects = data.allProjectsJson.edges;
+
   return (
     <Layout>
       <Content style={greetingStyle}>
@@ -84,6 +114,8 @@ const IndexPage = ({ data }) => {
       <Content style={aboutStyle}>
         <h2 id="projects">What I've been working on</h2>
         This section is working in progress. Meanwhile, you can take a look to my <a rel="noreferrer" className="contact" target="_blank" href="https://www.linkedin.com/in/cristian-moyano/">Linkedin</a> profile.
+        <h3 id="skills">Experience</h3>
+        <ProjectTimeline projects={projects}/>
       </Content>
       <Content style={aboutStyle}>
         <h2 id="contact">Let's build something together</h2>
